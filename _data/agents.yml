@@ -24,8 +24,8 @@
 
 - id: timmy
   name: Timmy
-  office: Pack OS
+  office: OS-1
   owner: Michael
-  role: Pack Agent
-  description: General assistance and coordination.
-  emoji: "🤖"
+  role: Chief of Staff
+  description: Executive priorities, scheduling, and decision support.
+  emoji: "📡"
