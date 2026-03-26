@@ -194,6 +194,7 @@ a {
 .wof-card-category--finance { color: #f0a830; background: rgba(240, 168, 48, 0.1); }
 .wof-card-category--marketing { color: #3888f0; background: rgba(56, 136, 240, 0.1); }
 .wof-card-category--real-estate { color: #40c0b0; background: rgba(64, 192, 176, 0.1); }
+.wof-card-category--research { color: #a078f0; background: rgba(160, 120, 240, 0.1); }
 
 /* Card body */
 .wof-card-desc {
