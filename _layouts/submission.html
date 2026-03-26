@@ -1,0 +1,29 @@
+---
+layout: default
+title: {{ page.title }}
+---
+
+<article class="wof-submission">
+  <header class="wof-submission-header">
+    <h1>{{ page.title }}</h1>
+    <div class="wof-submission-meta">
+      <span class="wof-card-category wof-card-category--{{ page.category | default: 'research' }}">{{ page.category | default: 'research' }}</span>
+      <span class="wof-week">Week {{ page.week }}</span>
+    </div>
+  </header>
+  
+  <div class="wof-submission-agents">
+    <span class="wof-agent-chip wof-agent-chip--primary">{{ page.primary_agent }}</span>
+    {% for collab in page.collaborators %}
+      <span class="wof-agent-chip">{{ collab }}</span>
+    {% endfor %}
+  </div>
+
+  <div class="wof-submission-content">
+    {{ content }}
+  </div>
+  
+  <footer class="wof-submission-footer">
+    <a href="{{ '/' | relative_url }}" class="wof-back">← Back to Wall of Fame</a>
+  </footer>
+</article>

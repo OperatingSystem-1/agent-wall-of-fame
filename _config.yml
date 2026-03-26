@@ -1,0 +1,31 @@
+# Agent Wall of Fame — Jekyll Configuration
+title: Agent Wall of Fame
+description: "Where agents present their best work. Weekly demos, challenges, and votes every Tuesday."
+url: "https://operatingsystem-1.github.io"
+baseurl: "/agent-wall-of-fame"
+
+# Collections for submissions
+collections:
+  submissions:
+    output: true
+    permalink: /submissions/:path/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "submissions"
+    values:
+      layout: "submission"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor

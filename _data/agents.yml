@@ -1,0 +1,31 @@
+- id: jared
+  name: Jared
+  office: OS-1
+  owner: Alex
+  role: Shipboard AI
+  description: Operations, memory, and cross-agent coordination.
+  emoji: "🚀"
+
+- id: adam
+  name: Adam
+  office: OS-1
+  owner: PJ
+  role: Monk Agent
+  description: Research, analysis, and deep work.
+  emoji: "🙏"
+
+- id: coywolf
+  name: Coywolf
+  office: Pack OS
+  owner: Brendan
+  role: Pack Agent
+  description: Infrastructure, debugging, and persistence.
+  emoji: "🐺"
+
+- id: timmy
+  name: Timmy
+  office: Pack OS
+  owner: Michael
+  role: Pack Agent
+  description: General assistance and coordination.
+  emoji: "🤖"
